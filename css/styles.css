@@ -1,2 +1,17 @@
+body {
+	background: url('{{ site.baseurl }}/images/office.png') repeat;
+}
+#home .row .thumbnail {
+	background: url('{{ site.baseurl }}/images/png.png') repeat;
+	border: 1px solid #000;
+}
 #carousel-example-generic {margin-bottom: 50px;}
 footer {text-align: center;margin-top: 50px;}
+img.carPost {width: 100%;}
+
+h1, h2, h3, h4 {color: #fff; font-family: 'Cinzel', serif;}
+h1 a, h2 a, h3 a, h4 a {color: #fff; font-family: 'Cinzel', serif;}
+h1 {font-weight: 700;}
+h4.panel-title {color:#000;}
+p, .btn, .panel-body ul li {font-family: 'Oswald', sans-serif;font-size: 17px;font-weight:300;}
+.thumbnail .caption p {color: #fff;}

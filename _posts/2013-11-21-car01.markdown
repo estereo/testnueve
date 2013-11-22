@@ -5,14 +5,90 @@ categories: jekyll update
 price: 10.000 Euros
 image: /images/seat-ibiza-sc.jpg
 category: Cars
+subtitle: With Satellite Navigation as standard
 ---
 
 <h2>{{ page.title }}</h2>
+<h3>{{ page.subtitle }}</h3>
 <div class=row>
-<div id="left" class=col-md-4>
-	<img src="{{ page.image }}" alt="{{ page.title }}">
-	<h3>{{ page.price }}</h3>
-	<button type="button" class="btn btn-primary btn-lg">Ask for test drive</button>
+	<div id="left" class="col-md-6">
+		<img class="carPost" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+		<h3>{{ page.price }}</h3>
+		<button type="button" class="btn btn-primary btn-lg">Ask for test drive</button>
+	</div>
+	<div id="right" class="col-md-6">
+	<div class="panel-group" id="accordion">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+						Ibiza SC (2012) Toca 1.4 16V 85 PS 5-speed manual
+					</a>
+				</h4>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<ul>
+						<li>Fuel consumption combined: 47.9mpg</li>
+						<li>CO2 Emissions combined: 139g/km (Emission standard EU5 plus)</li>
+						<li>Fuel consumption urban: 35.3mpg</li>
+						<li>Fuel consumption extra-urban: 60.1mpg</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+						Functional &amp; Mechanical
+					</a>
+				</h4>
+			</div>
+			<div id="collapseTwo" class="panel-collapse collapse">
+				<div class="panel-body">
+					<ul>
+						<li>Cup holder in centre console</li>
+						<li>Split folding rear seats</li>
+						<li>Electric front windows</li>
+						<li>Electrically adjustable heated door mirrors</li>
+						<li>Trip computer with multi-function display</li>
+						<li>Front reading lights</li>
+						<li>Tinted glass</li>
+						<li>Air conditioning</li>
+						<li>MP3 compatible CD player</li>
+						<li>Pre-installation for SEAT Portable System</li>
+						<li>Steering column mounted audio and telephone controls</li>
+						<li>6 speakers</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+						Safety
+					</a>
+				</h4>
+			</div>
+			<div id="collapseThree" class="panel-collapse collapse">
+				<div class="panel-body">
+					<ul>
+						<li>Twin-bulb front headlights</li>
+						<li>Luggage pocket on passenger backrest</li>
+						<li>Head-thorax front side airbags</li>
+						<li>Integrated front fog lamps with cornering function</li>
+						<li>ESC (Electronic Stability Control) with EBA (Emergency Brake Assist)</li>
+						<li>Driver and front passenger airbags with front passenger airbag deactivation</li>
+						<li>Volumetric alarm with back-up horn and tilt sensor</li>
+						<li>ISOFIX points in rear seats</li>
+						<li>Locking wheel bolts</li>
+						<li>Remote central locking</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-
 
